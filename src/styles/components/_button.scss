@@ -1,0 +1,38 @@
+// Big Button
+.big-btn {
+	background: $purple;
+	border: none;
+	border-bottom: 0.3rem solid darken($purple, 10%);
+	color: white;
+	font-weight: bold;
+	font-size: $l-size;
+	margin-bottom: $m-size;
+	padding: 2.4rem;
+	width: 100%;
+}
+
+.big-btn:disabled {
+	opacity: 0.4;
+}
+
+// Button
+.btn {
+	background: $purple;
+	border: none;
+	border-bottom: 0.3rem solid darken($purple, 10%);
+	color: white;
+	font-weight: 500;
+	padding: $s-size;
+}
+.btn--link {
+	background: none;
+	border: none;
+	color: $off-white;
+	padding: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+	.big-btn {
+		margin-bottom: $xl-size;
+	}
+}
